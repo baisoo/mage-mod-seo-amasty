@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <advancedseo translate="label">
+                    <label>Advanced SEO</label>
+                    <sort_order>800</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <use_canonical_link_for_products translate="label">
+                            <label>Use Canonical Link for products</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </use_canonical_link_for_products>
+                        <use_canonical_url_at_google_sitemap translate="label">
+                            <label>Use Canonical URLs at Google sitemap</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </use_canonical_url_at_google_sitemap>
+                    </fields>
+                </advancedseo>
+            </groups>
+        </catalog>
+        <sitemap>
+            <groups>
+                <advancedseo translate="label">
+                    <label>Advanced SEO</label>
+                    <sort_order>500</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <max_url_quantity_per_file translate="label">
+                            <label>Maximum URLs quantity per file</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </max_url_quantity_per_file>
+                        <max_file_size translate="label">
+                            <label>Maximum file size, Kb</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </max_file_size>
+                        <use_images translate="label">
+                            <label>Use images at sitemap</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </use_images>
+                    </fields>
+                </advancedseo>
+            </groups>
+        </sitemap>
+    </sections>
+</config>

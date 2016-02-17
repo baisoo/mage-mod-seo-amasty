@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <layout>
+        <updates>
+            <ascurl>
+                <file>aw_ascurl.xml</file>
+            </ascurl>
+        </updates>
+    </layout>
+</config>
